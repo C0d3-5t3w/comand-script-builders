@@ -5,9 +5,9 @@
 #include <signal.h>
 
 typedef struct {
-    const char *command;
-    const char *option;
-    const char *input;
+    const char *command; // command to execute
+    const char *option; // option to pass to the command
+    const char *input; // input to pass to the option
 } Command;
 
 Command commands[] = {

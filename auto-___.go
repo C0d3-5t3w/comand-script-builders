@@ -19,16 +19,16 @@ func checkRoot() {
 // remove this if you dont need root
 
 type User struct {
-	command interface{}
-	option  interface{}
-	input   interface{}
+	command interface{} // command to execute
+	option  interface{} // option to pass to the command
+	input   interface{} // input to pass to the option
 }
 
 var user = map[string]User{
 	"c1": {
-		command: "ls", // command to execute
-		option:  "-A", // option to pass to the command
-		input:   "/",  // input to pass to the command
+		command: "ls", // change these with your own values
+		option:  "-A", // change these with your own values
+		input:   "/", // change these with your own values
 	},
 	"c2": {
 		command: "ls", // change these with your own values

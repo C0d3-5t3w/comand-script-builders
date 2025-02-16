@@ -13,7 +13,7 @@ user = {
     "command1": {
         "command": "ls",  # command to execute
         "option": "-A",   # option to pass to the command
-        "input": "/",     # input to pass to the command
+        "input": "/",     # input to pass to the option
     },
     "command2": {
         "command": "ls",  # change these with your own values

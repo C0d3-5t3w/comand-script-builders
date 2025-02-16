@@ -3,7 +3,7 @@ const std = @import("std");
 const User = struct {
     command: []const u8, // command to execute
     option: []const u8, // option to pass to the command
-    input: []const u8, // input to pass to the command
+    input: []const u8, // input to pass to the option
 };
 
 const users = [_]User{

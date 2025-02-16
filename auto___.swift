@@ -12,9 +12,9 @@ func checkRoot() {
 // remove this if you dont need root
 
 struct User {
-    var command: String
-    var option: String?
-    var input: String?
+    var command: String? // comand to execute
+    var option: String? // option for the command
+    var input: String? // input for the option
 }
 
 let user: [String: User] = [
