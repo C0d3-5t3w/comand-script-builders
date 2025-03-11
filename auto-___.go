@@ -19,9 +19,9 @@ func checkRoot() {
 // remove this if you dont need root
 
 type User struct {
-	command interface{} // command to execute
-	option  interface{} // option to pass to the command
-	input   interface{} // input to pass to the option
+	command string // command to execute
+	option  string // option to pass to the command
+	input   string // input to pass to the option
 }
 
 var user = map[string]User{
